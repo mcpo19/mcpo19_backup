@@ -9,6 +9,7 @@ body {
     left: 0;
     height: 100%;
     background-color: #1a1a1a;
+    padding: 20px;
 }
 nav ul, footer ul {
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
