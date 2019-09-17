@@ -10,6 +10,7 @@ body {
     height: 100%;
     background-color: #1a1a1a;
     padding: 20px;
+    overflow-y: scroll;
 }
 nav ul, footer ul {
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
