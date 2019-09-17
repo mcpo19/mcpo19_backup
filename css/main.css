@@ -6,6 +6,13 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+}
+
 #sidenav {
     height: 100%;
     background-color: #1a1a1a;
