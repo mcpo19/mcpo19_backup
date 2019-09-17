@@ -2,6 +2,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+/* #sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
