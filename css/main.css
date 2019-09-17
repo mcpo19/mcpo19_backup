@@ -12,13 +12,13 @@ body {
     padding: 20px;
     overflow-y: scroll;
 }
-#sidenav nav ul, footer ul {
+#sidenav nav ul {
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-#sidenav nav ul li, footer ul li {
+#sidenav nav ul li {
     display: block;
     margin-right: 20px;
 }
