@@ -6,9 +6,9 @@ body {
     grid-template-columns: 1fr 6fr;
 }
 #sidenav {
-    position: fixed;
+/*     position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     height: 100%;
     background-color: #1a1a1a;
     padding: 20px;
