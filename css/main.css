@@ -1,7 +1,9 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0;
+    width: 100%;
     font-family: 'Gotham', 'Avenir Next', 'Sans-Serif';
+    display: grid;
+    grid-template-columns: 1fr 6fr;
 }
 #sidenav {
     position: fixed;
