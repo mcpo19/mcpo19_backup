@@ -12,21 +12,21 @@ body {
     padding: 20px;
     overflow-y: scroll;
 }
-#sidenav nav ul {
+#sidenav ul {
 /*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-#sidenav nav ul li {
+#sidenav ul li {
     display: block;
     margin-right: 20px;
 }
 
-ul {
+/* ul {
     list-style: None;
     padding: 0;
-}
+} */
 
 a {
     text-decoration: none;
