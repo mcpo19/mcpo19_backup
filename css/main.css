@@ -22,6 +22,12 @@ body {
     display: block;
     margin-right: 20px;
 }
+
+ul {
+    list-style: None;
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -38,14 +44,19 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
+/* footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+} */
+
+.container {
+    padding: 0 20px;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    padding: 0;
 }
 
 ul.posts li {
