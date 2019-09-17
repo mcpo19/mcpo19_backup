@@ -18,7 +18,6 @@ span.nav-separator {
     margin: 20px 0px;
 }
 #sidenav ul {
-/*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -27,12 +26,6 @@ span.nav-separator {
     display: block;
     margin: 10px 0px;
 }
-
-/* ul {
-    list-style: None;
-    padding: 0;
-} */
-
 a {
     text-decoration: none;
     color: white;
