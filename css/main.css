@@ -63,7 +63,7 @@ body {
 body #sidenav {
     background-color: #1a1a1a;
     color: white;
-    padding: 20px;
+    padding: 50px 20px 0px;
     overflow-y: scroll;
 }
 
@@ -77,7 +77,7 @@ body #sidenav a:hover {
 }
 
 body #sidenav a#title-logo {
-    font_size: 1.5em;
+    font_size: 1.9em;
 }
 
 body #sidenav p.logo-text {
@@ -115,7 +115,7 @@ body #sidenav nav ul li a:hover {
 /*  CONTAINER'S CSS          */
 /* ========================= */
 body .container {
-    padding: 20px 80px;
+    padding: 50px 80px;
     grid-column: span 6;
 }
 
