@@ -149,6 +149,10 @@ body .container .slides-container .slides {
     height: 100%;
 }
 
+body .container .slides-container .docs {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 /* --------------------------- */
 /* CONTAINER'S > QUIVER IMPORT */
 /* --------------------------- */
