@@ -161,6 +161,14 @@ body .container #contentarea hr {
 	margin-top: 20px;
 }
 
+body .container #contentarea p {
+	font-size: 1.15em;
+    line-height: 1.6em;
+    color: black;
+    opacity: 0.85;
+}
+
+
 /* --------------------------- */
 /*  CONTAINER'S > POSTS        */
 /* --------------------------- */
