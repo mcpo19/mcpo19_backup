@@ -65,51 +65,56 @@ body #sidenav {
     color: white;
     padding: 50px 20px 0px;
     overflow-y: scroll;
+	position: relative;
 }
 
-body #sidenav a {
+body #sidenav #sidenav-wrapper {
+    position: fixed;
+}
+
+body #sidenav #sidenav-wrapper a {
 	text-decoration: none;
 	color: white;
 	font-size: 2.2em;
 }
 
-body #sidenav a:hover {
+body #sidenav #sidenav-wrapper a:hover {
 	text-decoration: underline;
 }
 
-body #sidenav #title-logo {
+body #sidenav #sidenav-wrapper #title-logo {
     display: block;
 	margin-bottom: 10px;
 }
 
-body #sidenav p.logo-text {
+body #sidenav #sidenav-wrapper p.logo-text {
     font-size: 16px;
 	color: white;
 	opacity: 0.5;
 }
 
-body #sidenav nav ul {
+body #sidenav #sidenav-wrapper nav ul {
     padding: 0px;
     list-style: none;
     font-weight: 300;
 }
 
-body #sidenav nav ul li {
+body #sidenav #sidenav-wrapper nav ul li {
     display: block;
     margin: 20px 0px;
 }
 
-body #sidenav nav ul li span.nav-separator {
+body #sidenav #sidenav-wrapper nav ul li span.nav-separator {
     display: block;
     border-bottom: 1px solid rgba(255,255,255,0.5);
     margin: 20px 0px;
 }
 
-body #sidenav nav ul li a {
+body #sidenav #sidenav-wrapper nav ul li a {
 	font-size: 16px;
 }
 
-body #sidenav nav ul li a:hover {
+body #sidenav #sidenav-wrapper nav ul li a:hover {
     text-decoration: underline;
 }
 
