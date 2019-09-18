@@ -130,6 +130,24 @@ body .container h1 {
     font-size: 3em;
 }
 
+body .container .cover-div {
+	max-width: 1030px;
+}
+
+body .container .cover-div .cover-h1 {
+    font-size: 5em;
+	font-weight: 700;
+}
+
+body .container .cover-div .cover-h2 {
+    font-size: 2.3em;
+	line-height: 1.5em;
+}
+
+body .container .cover-div .cover-p {
+	margin-top: 30px;
+}
+
 /* --------------------------- */
 /*  CONTAINER'S > EMBED IFRAME */
 /* --------------------------- */
