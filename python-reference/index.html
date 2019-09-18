@@ -2,3 +2,449 @@
 layout: default
 ---
 <h1>Python Quick Reference</h1>
+
+
+<!----- Conversion time: 2.805 seconds.
+
+
+Using this HTML file:
+
+1. Cut and paste this output into your source file.
+2. See the notes and action items below regarding this conversion run.
+3. Check the rendered output (headings, lists, code blocks, tables) for proper
+   formatting and use a linkchecker before you publish this page.
+
+Conversion notes:
+
+* Docs to Markdown version 1.0β17
+* Wed Sep 18 2019 01:44:38 GMT-0700 (PDT)
+* Source doc: https://docs.google.com/open?id=1MC2tQLO6dsqRHoHxVjqi_pBbg7J1Pd5CcONpcFq1-Uk
+* This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
+----->
+
+
+<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 0; ALERTS: 1.</p>
+<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
+
+<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
+
+<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
+
+
+<h1>Python Basics Quick Reference</h1>
+
+
+<h2>Interactive Mode</h2>
+
+
+<p>
+To use Python in interactive mode, at the >>> prompt, type a command and press Enter.<br>
+<strong>Example:</strong>  
+</p>
+
+
+
+<pre class="prettyprint">>>> print('Hello World')
+ 	Hello World
+</pre>
+
+
+<h2>Operators</h2>
+
+
+<p>
+Commonly Used Operators:
+</p>
+
+<table>
+  <tr>
+   <td>Addition
+   </td>
+   <td><code>>>> 2 + 98</code>
+<p>
+<code>100</code>
+   </td>
+   <td><code>>>> 'Hello ' + 'World'</code>
+<p>
+<code>'Hello World'</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Subtraction 
+   </td>
+   <td><code>>>> 1000 - 1</code>
+<p>
+<code>999</code>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Multiplication
+   </td>
+   <td><code>>>> 10 * 10</code>
+<p>
+<code>100</code>
+   </td>
+   <td><code>>>> 'hello ' * 3</code>
+<p>
+<code>'hello hello hello'</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Division
+   </td>
+   <td><code>>>> 12 / 5</code>
+<p>
+<code>2</code>
+   </td>
+   <td><code>>>> 12.0 / 5 </code>or<code> 12 / 5.0</code>
+<p>
+<code>2.4</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Exponent
+   </td>
+   <td><code>>>> 2**3</code>
+<p>
+<code>8</code>
+   </td>
+   <td><code>>>> 16**.5</code>
+<p>
+<code>4.0</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Modulo
+   </td>
+   <td><code>>>> 12 % 5</code>
+<p>
+<code>2</code>
+   </td>
+   <td><code>>>> 100 % 10</code>
+<p>
+<code>0</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Equal / Not Equal
+   </td>
+   <td><code>>>> 10 == 10</code>
+<p>
+<code>True</code>
+   </td>
+   <td><code>>>> 'apples" != "oranges'</code>
+<p>
+<code>True</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Greater Than / Less Than
+   </td>
+   <td><code>>>> 'z' > 'a'</code>
+<p>
+<code>True</code>
+   </td>
+   <td><code>>>> 10 < 10</code>
+<p>
+<code>False</code>
+   </td>
+  </tr>
+</table>
+
+
+<h2>Naming Variables</h2>
+
+
+<p>
+Make names easy to read, indicate use, start with a letter, and do not use reserved words.
+</p>
+<p>
+<strong>Yes:</strong> <code>trials</code>, <code>counter</code>, <code>height</code>, <code>project_name</code>
+</p>
+<p>
+<strong>No:</strong> <code>v</code>, <code>3car</code>,<code> mine</code>, <code>long_variable_name</code>
+</p>
+<h2>Comments</h2>
+
+
+<p>
+Anything after # on a line is ignored: <code>>>> F = m*a #Newton's 2nd law</code>
+</p>
+<p>
+Use 3 quotation marks for multiple line comments
+</p>
+
+
+
+<pre class="prettyprint">>>> '''This is a comment that
+    spans multiple lines.'''
+</pre>
+
+
+<h2>Lists </h2>
+
+
+
+<table>
+  <tr>
+   <td>Creating a List
+   </td>
+   <td><code>>>> a = ['cat', 'dog']</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Referencing a List
+   </td>
+   <td><code>>>> a[1]</code>
+<p>
+<code>'dog'</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Adding to a List
+   </td>
+   <td><code>>>> a.append('bird')</code>
+<p>
+<code>>>> a</code>
+<p>
+<code> ['cat', 'dog', 'bird']</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Finding an item in a list
+   </td>
+   <td><code>>>> a.index('dog')</code>
+<p>
+<code>1</code>
+   </td>
+  </tr>
+</table>
+
+
+<p>
+<em>Documentation</em>: Python Data Structures → <a href="https://docs.python.org/3.7/tutorial/datastructures.html">https://docs.python.org/3.7/tutorial/datastructures.html</a>
+</p>
+<h2>Functions</h2>
+
+
+
+<table>
+  <tr>
+   <td>Defining Functions
+   </td>
+   <td><code>def function_name(input):</code>
+<p>
+<code>    #indented code </code>
+<p>
+<code>    #(4 spaces or 1 tab)</code>
+<p>
+<code>    return output</code>
+   </td>
+   <td><code>def circle_area(radius):</code>
+<p>
+<code>    area = 3.14 * (radius**2)</code>
+<p>
+<code>    return area</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Calling Functions
+   </td>
+   <td><code>function_name(input)</code>
+<p>
+<code>Output</code>
+   </td>
+   <td><code>circle_area(5)</code>
+<p>
+<code>78.5</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Input/Output
+   </td>
+   <td><code>>>> print(3 + 7)</code>
+<p>
+<code>10</code>
+<p>
+<code>>>> print('Hi')</code>
+<p>
+<code>Hi</code>
+   </td>
+   <td><code>>>> age = input("How old are you? ")</code>
+<p>
+<code>How old are you? 100</code>
+<p>
+<code>>>> print(age)</code>
+<p>
+<code>100</code>
+   </td>
+  </tr>
+  <tr>
+   <td>Formatting
+   </td>
+   <td><code>#Convert to an integer</code>
+<p>
+<code>>>> int(3.14)</code>
+<p>
+<code>3</code>
+   </td>
+   <td><code>#Convert into a string of characters.</code>
+<p>
+<code>>>> 'I am ' + str(age) + ' years old'</code>
+<p>
+<code>'I am 100 years old'</code>
+   </td>
+  </tr>
+</table>
+
+
+<p>
+<em>Documentation</em>: Python Functions → <a href="https://docs.python.org/3.7/library/functions.html">https://docs.python.org/3.7/library/functions.html</a> 
+</p>
+<h2>Control Flow</h2>
+
+
+
+<table>
+  <tr>
+   <td>While
+   </td>
+   <td><code>#initialize test variable</code>
+<p>
+<code>while (test is true):</code>
+<p>
+<code>    #run indented code</code>
+<p>
+  <code>   #increment test variable</code>
+   </td>
+   <td><code>number = 0</code>
+<p>
+<code>while (number < 5):</code>
+<p>
+<code>    print number</code>
+<p>
+<code>    number = number + 1</code>
+   </td>
+  </tr>
+  <tr>
+   <td>For
+   </td>
+   <td><code>for variable in list:</code>
+<p>
+<code>    print variable</code>
+   </td>
+   <td><code>for number in range(0, 5):</code>
+<p>
+    <code>print variable</code>
+   </td>
+  </tr>
+  <tr>
+   <td>If/Else
+   </td>
+   <td><code>if a < b:</code>
+<p>
+<code>    #do this indented code</code>
+<p>
+<code>else:</code>
+<p>
+<code>    #do this indented code</code>
+   </td>
+   <td><code>if 1 < 2:</code>
+<p>
+<code>    print "Yes"</code>
+<p>
+<code>else:</code>
+<p>
+<code>    print "No"</code>
+   </td>
+  </tr>
+</table>
+
+
+<p>
+<em>Documentation</em>: More Control Flow Tools in Python → <a href="https://docs.python.org/3.7/tutorial/controlflow.html">https://docs.python.org/3.7/tutorial/controlflow.html</a> 
+</p>
+<h2>Other Useful Modules</h2>
+
+
+
+<table>
+  <tr>
+   <td><strong><code>random</code></strong>
+<em>Documentation</em>: <a href="http://docs.python.org/library/random.html">http://docs.python.org/library/random.html</a> 
+   </td>
+   <td><strong><code>math<em> </em></code></strong>
+<em>Documentation</em>: <a href="http://docs.python.org/library/math.html">http://docs.python.org/library/math.html</a> 
+   </td>
+  </tr>
+  <tr>
+   <td><code>   >>> from random import *</code>
+<p>
+<code>   >>> randint(1, 10)</code>
+<p>
+<code>   5</code>
+<p>
+<code>   >>> randint(1, 10)</code>
+<p>
+<code>   8</code>
+<p>
+<code>   >>> choice(('H', 'T'))</code>
+<p>
+<code>   'H'</code>
+<p>
+<code>   >>> choice(('H', 'T'))</code>
+<p>
+<code>   'T'</code>
+   </td>
+   <td><code> >>> from math import *</code>
+<p>
+<code> >>> factorial(5)</code>
+<p>
+<code> 120</code>
+<p>
+<code> >>> log(10) #log e</code>
+<p>
+<code> 2.30</code>
+<p>
+<code> >>> log(1000,10 #log 10</code>
+<p>
+<code> 3</code>
+<p>
+<code> >>> sin(pi/2) #Radians</code>
+<p>
+<code> 1.0</code>
+   </td>
+  </tr>
+  <tr>
+   <td><strong><code>turtle</code></strong> 
+<em>Documentation</em>: <a href="http://docs.python.org/library/turtle.html">http://docs.python.org/library/turtle.html</a> 
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><code> >>> from turtle import *</code>
+<p>
+<code> >>> forward(100) #pixels</code>
+<p>
+<code> >>> goto(100, 100) #(x,y)</code>
+<p>
+<code> >>> right(180) #angle</code>
+<p>
+<code> >>> home() #(0,0)</code>
+<p>
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Python-Basics0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/Python-Basics0.png" width="" alt="alt_text" title="image_tooltip">
+
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
+
