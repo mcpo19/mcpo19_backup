@@ -57,9 +57,9 @@ body {
     width: 100vw;
 }
 
-/* ====================== */
-/*  SIDE NAV'S CSS        */
-/* ====================== */
+/* ========================= */
+/*  SIDE NAV'S CSS           */
+/* ========================= */
 body #sidenav {
     background-color: #1a1a1a;
     color: white;
@@ -70,6 +70,10 @@ body #sidenav {
 body #sidenav a {
 	text-decoration: none;
 	color: white;
+}
+
+body #sidenav a:hover {
+	text-decoration: underline;
 }
 
 body #sidenav a#title-logo {
@@ -106,11 +110,12 @@ body #sidenav nav ul li a {
 body #sidenav nav ul li a:hover {
     text-decoration: underline;
 }
-/* ====================== */
-/*  CONTAINER'S CSS       */
-/* ====================== */
+
+/* ========================= */
+/*  CONTAINER'S CSS          */
+/* ========================= */
 body .container {
-    padding: 0 80px;
+    padding: 20px 80px;
     grid-column: span 6;
 }
 
@@ -118,6 +123,9 @@ body .container h1 {
     font-size: 3em;
 }
 
+/* --------------------------- */
+/*  CONTAINER'S > EMBED IFRAME */
+/* --------------------------- */
 body .container .slides-container {
     position: relative;
     width: 100%;
@@ -133,6 +141,20 @@ body .container .slides-container .slides {
     height: 100%;
 }
 
+/* --------------------------- */
+/* CONTAINER'S > QUIVER IMPORT */
+/* --------------------------- */
+body .container #titlearea h2 {
+	font-size: 1.8em;
+}
+
+body .container #contentarea h2 {
+	font-size: 1.5em;
+}
+
+/* --------------------------- */
+/*  CONTAINER'S > POSTS        */
+/* --------------------------- */
 p {
     font-size: 1.2em;
     line-height: 1.3em;
