@@ -43,33 +43,44 @@ table {
 }
 /* ====================== */
 /* ====================== */
+/* ====================== */
 /* SITE'S CSS STARTS HERE */
+/* ====================== */
 /* ====================== */
 /* ====================== */
 body {
     margin: 0;
-    font-family: 'Gotham', 'Avenir Next', 'Sans-Serif';
+    font-family: 'Avenir Next', 'Gotham', 'Helvetica Neue', 'Sans-Serif';
     display: grid;
     grid-template-columns: repeat(7, minmax(180px, 1fr));
     height: 100vh;
     width: 100vw;
 }
+/* ====================== */
+/*  SIDE NAV'S CSS        */
+/* ====================== */
 body #sidenav {
     background-color: #1a1a1a;
     color: white;
     padding: 20px;
     overflow-y: scroll;
 }
+body #sidenav a {
+	text-decoration: none;
+	color: white;
+}
 body #sidenav a#title-logo {
-    font_size: 20px;
+    font_size: 1.5em;
 }
 body #sidenav p.logo-text {
     font-size: 16px;
+	color: white;
+	opacity: 0.5;
 }
 body #sidenav nav ul {
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    font-weight: 300;
 }
 body #sidenav nav ul li {
     display: block;
@@ -80,16 +91,14 @@ body #sidenav nav ul li span.nav-separator {
     border-bottom: 1px solid rgba(255,255,255,0.5);
     margin: 20px 0px;
 }
-a {
-    text-decoration: none;
-    color: white;
+body #sidenav nav ul li a {
+	font-size: 16px;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-/*     font-family:'Helvetica', 'Arial', 'Sans-Serif'; */
 }
 p {
     font-size: 1.2em;
