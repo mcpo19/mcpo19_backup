@@ -7,7 +7,6 @@ body {
     width: 100vw;
 }
 body #sidenav {
-/*     height: 100%; */
     background-color: #1a1a1a;
     color: white;
     padding: 20px;
@@ -19,19 +18,19 @@ body #sidenav a#title-logo {
 body #sidenav p.logo-text {
     font-size: 16px;
 }
-body #sidenav span.nav-separator {
-    display: block;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
-    margin: 20px 0px;
-}
-#sidenav ul {
+body #sidenav nav ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
-#sidenav ul li {
+body #sidenav nav ul li {
     display: block;
     margin: 10px 0px;
+}
+body #sidenav nav ul li span.nav-separator {
+    display: block;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    margin: 20px 0px;
 }
 a {
     text-decoration: none;
