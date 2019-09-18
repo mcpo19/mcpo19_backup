@@ -70,14 +70,16 @@ body #sidenav {
 body #sidenav a {
 	text-decoration: none;
 	color: white;
+	font-size: 2.2em;
 }
 
 body #sidenav a:hover {
 	text-decoration: underline;
 }
 
-body #sidenav a#title-logo {
-    font_size: 1.9em;
+body #sidenav #title-logo {
+    display: block;
+	margin-bottom: 10px;
 }
 
 body #sidenav p.logo-text {
