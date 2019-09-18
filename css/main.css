@@ -144,12 +144,21 @@ body .container .slides-container .slides {
 /* --------------------------- */
 /* CONTAINER'S > QUIVER IMPORT */
 /* --------------------------- */
+body .container #titlearea {
+	margin: 20px 0px;
+}
+
 body .container #titlearea h2 {
 	font-size: 1.8em;
 }
 
 body .container #contentarea h2 {
 	font-size: 1.5em;
+	margin-bottom: 0.6em;
+}
+
+body .container #contentarea hr {
+	margin-top: 20px;
 }
 
 /* --------------------------- */
