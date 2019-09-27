@@ -183,8 +183,12 @@ body .container #titlearea h2 {
 }
 
 body .container #contentarea h2 {
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-bottom: 0.6em;
+}
+
+body .container #contentarea h4 {
+	font-weight: 600;
 }
 
 body .container #contentarea hr {
